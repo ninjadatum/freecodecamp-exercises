@@ -1,0 +1,44 @@
+body {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1586495985022-f5ce405887ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+  #title {
+    color: rgb(41, 132, 148);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#description {
+    color: rgb(41, 132, 148);
+    text-align: center;
+}
+
+#survey-form {
+    border-radius: 5px;
+    padding: 20px 10px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(24, 134, 107);
+}
+
+input, select {
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 20px;
+}
+
